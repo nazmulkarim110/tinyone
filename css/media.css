@@ -1,7 +1,23 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+/* header start */
+.menu ul li a {
+    padding: 0 0px !important;
+    text-align: right;
+}
+/*header end*/
+.f_p{
+    font-size: 18px;
+    line-height: 20px;
+    word-spacing: 0;
+}
 
-.s_img{
+.f_text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.s_img {
     display: none;
 }
 
@@ -14,6 +30,28 @@
     font-weight: 700;
     margin-bottom: 20px;
 }
+
+/* contact start */
+.contact{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.f_form{
+    margin-bottom: 0px;
+
+}
+
+.f_submit{
+    margin-top: 20px;
+}
+/* contact end */
+
+/* footer start */
+.f_1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* footer end */
 
 }
 /* Small devices (landscape phones, 576px and up) */
@@ -50,6 +88,19 @@
 }
 /* features end */
 
+/* contact start */
+.contact{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+/* contact end */
+
+/* footer start */
+.f_1{
+     text-align: center;
+     margin-bottom: 50px;
+}
+/* footer end */
 }
 
 /* Medium devices (tablets, 768px and up)*/
